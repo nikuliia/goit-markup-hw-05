@@ -485,21 +485,25 @@
             </li>
           </ul>
         </div>
+
         <div class="subscribe-container">
           <p class="footer-title">Subscribe</p>
-          <label class=""
-            ><input
-              type="email"
-              class="subscribe-field"
-              name="subscription"
-              placeholder="E-mail"
-          /></label>
-          <div class="send-container">
-            <button type="submit" class="btn-send">Subscribe</button>
-            <svg class="icon-send" width="24" height="24">
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
-          </div>
+          <form class="subscription-form">
+            <label class="subscription-label">
+              <input
+                type="email"
+                class="subscribe-field"
+                name="subscription"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button type="submit" class="btn-send">
+              Subscribe<svg class="icon-send" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
