@@ -64,9 +64,7 @@
       <section class="section-slogan">
         <div class="container slogan-container">
           <h1 class="page-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="section-slogan-btn">
-            Order Service
-          </button>
+          <button type="button" class="primary-btn">Order Service</button>
         </div>
       </section>
 
@@ -442,6 +440,7 @@
     <!-- #endregion main -->
 
     <!-- #region footer -->
+
     <footer class="footer">
       <div class="container footer-container">
         <div class="logo-container">
@@ -489,5 +488,80 @@
       </div>
     </footer>
     <!-- #endregion footer -->
+
+    <!-- #region backdrop -->
+    <div class="backdrop is-open">
+      <div class="modal-window">
+        <p class="popup-title">Leave your contacts and we will call you back</p>
+        <button type="button" class="btn-close">
+          <svg class="close-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-icon-close"></use>
+          </svg>
+        </button>
+
+        <form class="form-wrapper">
+          <div class="form-containers">
+            <label class="label-field" for="username">Name</label>
+            <div class="input-wrapper">
+              <input
+                class="input-field"
+                type="text"
+                id="username"
+                name="username"
+              />
+              <svg class="svg-input" width="18" height="24">
+                <use href="./images/icons.svg#icon-icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-containers">
+            <label class="label-field" for="usertel">Phone</label>
+            <div class="input-wrapper">
+              <input
+                class="input-field"
+                type="tel"
+                id="usertel"
+                name="usertel"
+              />
+              <svg class="svg-input" width="18" height="24">
+                <use href="./images/icons.svg#icon-icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-containers">
+            <label class="label-field" for="useremail">Email</label>
+            <div class="input-wrapper">
+              <input
+                class="input-field"
+                type="email"
+                id="useremail"
+                name="useremail"
+              />
+              <svg class="svg-input" width="18" height="24">
+                <use href="./images/icons.svg#icon-icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-containers comment-box">
+            <label class="label-field" for="usercomment">Comment</label>
+            <textarea
+              class="comment"
+              name="usercomment"
+              id="usercomment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="privacy-checkbox">
+            <input type="checkbox" id="policy" name="policy" value="true" />
+            <label class="label-field" for="policy"
+              >I accept the terms and conditions of the
+              <a href="#" class="privacy-policy">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="primary-btn form-btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- #endregion backdrop -->
   </body>
 </html>
