@@ -730,7 +730,7 @@ a {
   margin-right: 8px;
 }
 
-.privacy-field:checked + .label-field .checked-icon {
+.privacy-field:checked + .label-field .checked-element {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
